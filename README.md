@@ -1,4 +1,4 @@
-# MEAN Authorization & Authentication Kit
+<!-- # MEAN Authorization & Authentication Kit
 
 A user registration and login portal using Express/ Angular 2/ and MongoDB/
 
@@ -10,6 +10,6 @@ Run `npm install` to install dependencies also install globally `npm install nod
 
 cd to angular-src and install dependencies here as well `npm install`. After run `ng serve` to run server and go to port 4200 to work on front-end.
 
-## Build 
+## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `public/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `public/` directory. Use the `-prod` flag for a production build. -->

@@ -22,7 +22,7 @@ mongoose.connection.on('error', (err) => {
 
 // Port and app connection
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 const users = require('./routes/users');
 
 //Cors Middlware
@@ -52,6 +52,6 @@ app.get('*', (req, res) => {
 });
 
 //Start Server
-app.listen(port, () => {
-    console.log('Server started on port ' + port);
+app.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', http.address().port);
 });
